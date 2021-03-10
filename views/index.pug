@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="style.css")
+    body 
+    .container
+    form(action='/' method='POST')
+        h1 Welcome
+        h2 User Login
+        input(type='text' placeholder='email or username' required='')
+        input(type='password' placeholder='password' required='')
+        ol
+        li
+            input#reme(type='checkbox')
+            label(for='reme') Remember Me
+        a(href='#') Forget Password?
+        button Login
+        a(href='#')
+        | Create Account
+        label
+    script(src='index.js')

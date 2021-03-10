@@ -1,0 +1,28 @@
+body {
+  background-color: teal;
+}
+
+a,
+button {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+li {
+  position: relative;
+  right: 25px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
